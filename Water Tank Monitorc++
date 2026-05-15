@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int level;
+
+    cin >> level;
+
+    if(level<20)
+        cout << "Low Water";
+    else
+        cout << "OK";
+}
